@@ -1,0 +1,18 @@
+﻿Build started 2014/10/30 22:38:09.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\SceneGraph\SceneGraph\SceneGraph.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SceneGraph.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         SceneGraph.vcxproj -> C:\Users\cat\Documents\Visual Studio 2010\Projects\SceneGraph\Debug\SceneGraph.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SceneGraph.unsuccessfulbuild".
+         Touching "Debug\SceneGraph.lastbuildstate".
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\SceneGraph\SceneGraph\SceneGraph.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

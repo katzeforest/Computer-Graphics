@@ -1,0 +1,17 @@
+﻿Build started 2014/10/7 22:15:24.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW1c\HW1a\HW1a.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\HW1c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         HW1a.vcxproj -> C:\Users\cat\Documents\Visual Studio 2010\Projects\HW1c\Release\HW1c.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\HW1c.unsuccessfulbuild".
+         Touching "Release\HW1c.lastbuildstate".
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW1c\HW1a\HW1a.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

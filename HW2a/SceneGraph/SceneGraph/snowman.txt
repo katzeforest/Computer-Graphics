@@ -1,0 +1,121 @@
+CAMERA
+RESO 640 480
+EYEP 5 0 0
+VDIR -1 0 0
+UVEC 0 0 1
+FOVY 45
+
+LIGHT
+LPOS 2 1 0
+LCOL 1 1 1
+
+NODE sphere_body
+TRANSLATION 0 0 0
+ROTATION 0 0 0
+SCALE 1 1 1
+CENTER 0 0 0
+PARENT null
+SHAPE sphere
+RGBA 1 1 1
+
+
+NODE sphere_head
+TRANSLATION 0 0 0.7
+ROTATION 0 0 0
+SCALE 0.8 0.8 0.8
+CENTER 0 0 0
+PARENT sphere_body
+SHAPE sphere
+RGBA 1 1 1
+
+NODE sphere_lefteye
+TRANSLATION 0.8 0.2 0.05
+ROTATION 0 0 0
+SCALE 0.2 0.2 0.2
+CENTER 0 0 0
+PARENT sphere_head
+SHAPE sphere
+RGBA 0 0 0
+
+NODE sphere_righteye
+TRANSLATION 0.8 -0.2 0.05
+ROTATION 0 0 0
+SCALE 0.2 0.2 0.2
+CENTER 0 0 0
+PARENT sphere_head
+SHAPE sphere
+RGBA 0 0 0
+
+NODE sphere_upred
+TRANSLATION 1 0 0.2
+ROTATION 0 0 0
+SCALE 0.2 0.2 0.2
+CENTER 0 0 0
+PARENT sphere_body
+SHAPE sphere
+RGBA 	1 0 0
+
+NODE sphere_downred
+TRANSLATION 1 0 -0.1
+ROTATION 0 0 0
+SCALE 0.2 0.2 0.2
+CENTER 0 0 0
+PARENT sphere_body
+SHAPE sphere
+RGBA 	1 0 0
+
+NODE cylinder_rightarm
+TRANSLATION 0 0.5 -0.2
+ROTATION  45 45 0
+SCALE 0.1 0.8 0.1
+CENTER 0 0 0
+PARENT sphere_body
+SHAPE cylinder
+RGBA 	0.8 0.23 0.15 
+
+NODE cylinder_leftarm
+TRANSLATION 0 -0.5 -0.2
+ROTATION  -45 45 0
+SCALE 0.1 0.8 0.1
+CENTER 0 0 0
+PARENT sphere_body
+SHAPE cylinder
+RGBA 	0.8 0.23 0.15 
+
+NODE cylinder_nose
+TRANSLATION 0 -0.5 -0.05
+ROTATION  0 0 90
+SCALE 0.1 0.6 0.1
+CENTER 0 0 0
+PARENT sphere_head
+SHAPE cylinder
+RGBA 	0.8 0.23 0.15 
+
+
+NODE cylinder_scarf
+TRANSLATION 0 0.5 0
+ROTATION  -90 0 0
+SCALE 0.8 0.8 0.8
+CENTER 0 0 0
+PARENT sphere_head
+SHAPE cylinder
+RGBA 	1 0 0 
+
+NODE cylinder_cap
+TRANSLATION 0 -0.5 0
+ROTATION  -90 0 0
+SCALE 0.5 0.3 0.5
+CENTER 0 0 0
+PARENT sphere_head
+SHAPE cylinder
+RGBA 	1 0 0 
+
+
+
+
+
+
+
+
+
+

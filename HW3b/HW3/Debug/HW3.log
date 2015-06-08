@@ -1,0 +1,14 @@
+﻿Build started 2014/11/23 17:03:10.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3\HW3\HW3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\HW3.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\include /I..\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt shaders\Config.cpp
+         Config.cpp
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3\hw3\shaders\config.cpp(1): fatal error C1083: Cannot open include file: 'Config.h': No such file or directory
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3\HW3\HW3.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07

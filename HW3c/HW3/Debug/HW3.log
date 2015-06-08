@@ -1,0 +1,39 @@
+﻿Build started 2014/12/10 22:40:00.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\HW3\HW3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HW3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\include /I..\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _OCTREE /D _MC /D LIGHT_DEFINITION=32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Scene.cpp
+         Scene.cpp
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\scene.cpp(408): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\scene.cpp(475): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\scene.cpp(452): warning C4715: 'Scene::TraceRay' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.exe" /NOLOGO /LIBPATH:. ../freeglut/lib/freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HW3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE:NO /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.lib" /MACHINE:X86 Debug\glew.obj
+         Debug\Config.obj
+         Debug\Cube.obj
+         Debug\Cylinder.obj
+         Debug\EasyBMP.obj
+         Debug\Geometry.obj
+         Debug\main.obj
+         Debug\Material.obj
+         Debug\Mesh.obj
+         Debug\Node.obj
+         Debug\Octree.obj
+         Debug\Scene.obj
+         Debug\Sphere.obj
+         Debug\tests.obj
+         Debug\Triangle.obj
+         LINK : C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.exe not found or not built by the last incremental link; performing full link
+         HW3.vcxproj -> C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Debug\HW3.exe;#1" /manifest Debug\HW3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HW3.unsuccessfulbuild".
+         Touching "Debug\HW3.lastbuildstate".
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\HW3\HW3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

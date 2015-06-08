@@ -1,0 +1,46 @@
+﻿Build started 2014/12/10 23:19:58.
+     1>Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\HW3\HW3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\HW3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\include /I..\freeglut\include /Zi /nologo /W3 /WX- /Ox /Oy- /GL /D _OCTREE /D _MC /D LIGHT_DEFINITION=32 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Scene.cpp
+         Scene.cpp
+     1>src\Scene.cpp(408): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\Scene.cpp(475): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Release\HW3.exe" /NOLOGO /LIBPATH:. ../freeglut/lib/freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HW3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Release\HW3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Release\HW3.lib" /MACHINE:X86 Release\glew.obj
+         Release\Config.obj
+         Release\Cube.obj
+         Release\Cylinder.obj
+         Release\EasyBMP.obj
+         Release\Geometry.obj
+         Release\main.obj
+         Release\Material.obj
+         Release\Mesh.obj
+         Release\Node.obj
+         Release\Octree.obj
+         Release\Scene.obj
+         Release\Sphere.obj
+         Release\tests.obj
+         Release\Triangle.obj
+         Generating code
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\octree.cpp(171): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\octree.cpp(171): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\octree.cpp(171): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\octree.cpp(171): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\cube.cpp(145): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\cube.cpp(145): warning C4756: overflow in constant arithmetic
+     1>c:\users\cat\documents\visual studio 2010\projects\hw3c\hw3\src\scene.cpp(452): warning C4715: 'Scene::TraceRay' : not all control paths return a value
+         Finished generating code
+         HW3.vcxproj -> C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Release\HW3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\Release\HW3.exe;#1" /manifest Release\HW3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\HW3.unsuccessfulbuild".
+         Touching "Release\HW3.lastbuildstate".
+     1>Done Building Project "C:\Users\cat\Documents\Visual Studio 2010\Projects\HW3c\HW3\HW3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.60
